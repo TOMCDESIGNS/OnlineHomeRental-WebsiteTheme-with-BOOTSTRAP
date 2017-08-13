@@ -1,0 +1,363 @@
+/* The Navigation Bar */
+
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    opacity: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	margin-bottom: 0px;
+}
+.navbar li a,
+.navbar .navbar-brand {
+    color: #f6f6f6 !important;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+    color: #009999 !important;
+    background-color: #000000 !important;
+    border: 0.5px solid #ffffff;
+}
+
+
+/* Dropdown Menu*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #FA5858;
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    color: #009999 !important;
+    background-color: #000000 !important;
+    border: 0.5px solid #ffffff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FA5858;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.8);
+    border: 0.5px solid #ffffff;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #FA8258
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#background{
+		background-image: url('../img/home1.jpg');
+}
+
+#background{
+	display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    background-color: #FCFCFC;
+    height: 375px;
+    justify-content: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.text {
+    font-family: 'Anton', sans-serif;
+    padding-top:  170px;
+	font-size: 80px;
+	color: white;
+	
+}
+
+.bg0 {
+    background-color: #F3E2A9;
+}
+
+
+.bg1 {
+	font-family: 'Anton';
+    text-align: center;
+    background-color: #D5D0D0;
+    color: #000;
+}
+.bg2 {
+    background-color: #F2F2F2;
+}
+.bg3 {
+    background-color: rgba(220,213,220,1.00);
+    margin: 0 auto;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-o-border-radius:15px;
+	-moz-border-radius:15px;
+	font-weight: bolder;
+    
+}
+.bg4 {
+    color: #ffffff;
+    background-color: #424242;
+}
+.bg5 {
+    background-color: #BDBDBD;
+}
+.bg6 {
+    background-image: url('../img/deals.jpg');
+	background-size: cover;
+	margin-top: 0px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    color: #ffffff;
+}
+.bg7 {
+    background-image: url('../img/contact.jpg');
+	background-size: cover;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.bg8 {
+    background-image: url('../img/rent.jpg');
+	background-size: cover;
+}
+.bg9 {
+    background-image: url('../img/reg2.jpg');
+	max-width: 100%;
+	height: auto;
+	display: block;
+    background-size: cover; 
+    color: #ffffff;
+}
+.bg10{
+    
+    background-color: rgba(0,0,0,0.5);
+    margin: 0 auto;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-o-border-radius:15px;
+	-moz-border-radius:15px;
+	font-weight: bolder;
+
+}
+.bg11{
+	
+	border-bottom: 1px solid #524D4D;
+}
+.imagination {
+    background-image: url('../img/rent1.jpg');
+	background-size: cover;
+    background-color: #F5ECCE;
+}
+h3 {
+    font-family: 'proxima-regular';
+}
+
+/*
+button {
+    font-size: 15px;
+    color: #FFFFFF;
+    background-color: #2E2E2E;
+}
+button a {
+    color: #ffffff;
+}
+button a:hover {
+    color: #ffffff;
+    border: 5px solid #FF0000;
+}
+*/
+.list-group {
+    border: 0.5px solid #000;
+}
+.list-group-item {
+    border: 0.3px solid #000;
+}
+/*
+.thumbnail {
+    border: 0.3px solid #000;
+}
+.thumbnail :hover {
+    border: 1.2px solid #848484;
+}
+*/
+
+.note {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+h2 {
+    color: black;
+}
+p {
+    color: #000;
+}
+/*
+.btn {
+    background-color: #FF8000;
+    color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0px;
+}
+.btn:hover {
+    background-color: #ffffff;
+    color: #000;
+    border-color: #000000;
+}
+*/
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    
+    position: fixed;
+    /* Stay in place */
+    
+    z-index: 1;
+    /* Sit on top */
+    
+    padding-top: 100px;
+    /* Location of the box */
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    
+    height: 100%;
+    /* Full height */
+    
+    overflow: auto;
+    /* Enable scroll if needed */
+    
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black w/ opacity */
+    
+    border: 2px;
+}
+/* Modal Content */
+.modal-content {
+    position: relative;
+    border: 10px solid rgba(0,0,0,0.5);
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.box {
+    float: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border-radius: 0! important;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+    color: #ffffff;
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.box-list {
+    z-index: 2;
+    display: inline-block;
+    position: relative;
+    float: left;
+    vertical-align: top;
+    box-sizing: border-box;
+    outline: 0;
+    border-radius: 0! important;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif!important;
+    color: #ffffff;
+    text-align: center;
+}
+/* The Close Button */
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-header {
+    padding: 8px 16px;
+    background-color: #222020;
+    color: white;
+}
+.modal-body {
+    padding: 2px 26px;
+}
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #222020;
+    color: white;
+    text-align: left;
+}
+.modal-footer a {
+    color: #084B8A;
+}
+
+
+
+@media (max-width:668px){
+	.background {
+    width: 100%;
+    margin-top: 71px;
+    
+    height: 246px;
+}
+	
+	.form-inline{
+	    width: 50%;
+    padding-top: 84px;
+    margin-left: 154px;
+}
+}
+
